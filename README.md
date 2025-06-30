@@ -1,6 +1,6 @@
 # Scene Graph -> Unreal BlockOut
 
-Turn a natural-language scene description into a grey-box Unreal level in two easy steps:  
+Turn a natural-language scene description into a grey-box Unreal level in two steps:  
 1. **Parse** your prompt into a sanitized scene-graph JSON.  
 2. **Build** a BlockOut `.umap` in Unreal Engine from that JSON.
 
