@@ -7,10 +7,15 @@ Turn a natural-language scene description into a grey-box Unreal level in two ea
 ## 📂 Repository Layout
 
 scene-graph-to-unreal-blockout/
+
 ├── parser.py # CLI: prompt → scene.json
+
 ├── BuildScene.py # Unreal Python: scene.json → BlockOut.umap
+
 ├── run_demo.sh # End-to-end shell: deps, parser, Unreal build
+
 ├── requirements.txt # Python dependencies
+
 └── sample.json # Json file from parser.py
 
 ---
