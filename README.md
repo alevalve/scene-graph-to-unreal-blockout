@@ -75,7 +75,7 @@ Before run the sh file you should:
 
 ## 3. Expected Output 
 
-After running ```bash ./run_demo.sh```, you should find the respective BlockOut file at the following path:
+After running ```./run_demo.sh```, you should find the respective BlockOut file at the following path:
 
 ```swift
 <Your-Unreal-Project-Directory>/Content/Maps/BlockOut.umap
