@@ -4,6 +4,10 @@ Turn a natural-language scene description into a grey-box Unreal level in two ea
 1. **Parse** your prompt into a sanitized scene-graph JSON.  
 2. **Build** a BlockOut `.umap` in Unreal Engine from that JSON.
 
+## Unreal Engine 
+
+For this task, Unreal Engine 5.6.0 was used as our 3D computer graphics engine.
+
 ## 📂 Repository Layout
 
 scene-graph-to-unreal-blockout/
@@ -86,6 +90,7 @@ For example:
 ./Unreal Projects/MyProject/Content/Maps/BlockOut.umap
 ```
 
+<img width="520" alt="Screenshot 2025-06-30 at 10 01 56 AM" src="https://github.com/user-attachments/assets/4649306e-a24e-437e-a2d6-959d7488386e" />
 
 
 
