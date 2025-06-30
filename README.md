@@ -92,6 +92,15 @@ For example:
 
 <img width="520" alt="Screenshot 2025-06-30 at 10 01 56 AM" src="https://github.com/user-attachments/assets/4649306e-a24e-437e-a2d6-959d7488386e" />
 
+## 4. Improvements  
+
+Future enhancements will focus on three key areas:
+
+### Geometry: Add wall thickness and a full ceiling to transform the room from a simple block-out into a solid enclosure.
+
+### Openings: Extend the JSON schema to define doors and windows—complete with dimensions and positions—so you can automatically spawn frames and cut-outs.
+
+#### Materials & Aesthetics: Apply default surface materials (e.g., drywall, concrete, wood) to walls, floor, and ceiling, instantly lending realism and visual polish to the generated space.
 
 
 
