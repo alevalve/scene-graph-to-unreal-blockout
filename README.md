@@ -16,7 +16,7 @@ scene-graph-to-unreal-blockout/
 
 ├── requirements.txt # Python dependencies
 
-└── sample.json # Json file from parser.py
+└── scene.json # Json file from parser.py
 
 ---
 
