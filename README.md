@@ -71,6 +71,20 @@ Before run the sh file you should:
 3. UPROJECT: full path to your .uproject
 4. SCRIPTS_DIR: directory containing parser.py & BuildScene.py
 
+--- 
+
+## 3. Expected Output 
+
+After running ```bash ./run_demo.sh```, you should find the respective BlockOut file at the following path:
+
+```swift
+<Your-Unreal-Project-Directory>/Content/Maps/BlockOut.umap
+```
+
+For example:
+```swift
+./Unreal Projects/MyProject/Content/Maps/BlockOut.umap
+```
 
 
 
