@@ -72,7 +72,3 @@ The script will:
 2. Invoke `parser.py` to generate `scene.json`.
 3. Launch Unreal headless to run `BuildScene.py` on that JSON.
 4. Verify that `BlockOut.umap` is saved under `Content/Maps` in your project.
-
-
-
-
