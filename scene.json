@@ -1,0 +1,51 @@
+{
+  "rooms": [
+    {
+      "name": "loft",
+      "width": 400,
+      "length": 500
+    }
+  ],
+  "objects": [
+    {
+      "id": "bed",
+      "type": "bed",
+      "parent": "loft",
+      "position": {
+        "x": 100,
+        "y": 0,
+        "z": 200
+      }
+    },
+    {
+      "id": "bedside_table",
+      "type": "bedside table",
+      "parent": "loft",
+      "position": {
+        "x": 130,
+        "y": 0,
+        "z": 210
+      }
+    },
+    {
+      "id": "rocket_lamp",
+      "type": "rocket-shaped lamp",
+      "parent": "bedside_table",
+      "position": {
+        "x": 0,
+        "y": 50,
+        "z": 0
+      }
+    },
+    {
+      "id": "skylight",
+      "type": "skylight",
+      "parent": "loft",
+      "position": {
+        "x": 200,
+        "y": 300,
+        "z": 200
+      }
+    }
+  ]
+}

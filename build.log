@@ -1,0 +1,149 @@
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Wait until we know the daemon has started.
+Parent received signal 30
+Daemon signalled successful start
+Forked complete (ret=0)
+[2025.06.30-03.22.30:281][  0]LogObj: Display: Attempting to load config data for Default__SlateThemeManager before the Class has been constructed/registered/linked (likely during module loading or early startup). This will result in the load silently failing and should be fixed.
+[2025.06.30-03.22.30:515][  0]LogCsvProfiler: Display: Metadata set : verbatimrhiname="Null"
+[2025.06.30-03.22.30:515][  0]LogCsvProfiler: Display: Metadata set : rhiname="Null"
+[2025.06.30-03.22.30:515][  0]LogCsvProfiler: Display: Metadata set : rhifeaturelevel="SM6"
+[2025.06.30-03.22.30:515][  0]LogCsvProfiler: Display: Metadata set : shaderplatform="METAL_SM6"
+[2025.06.30-03.22.30:591][  0]LogTextureFormatASTC: Display: ASTCEnc version 5.0.1 library loaded
+[2025.06.30-03.22.30:592][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2025.06.30-03.22.30:592][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2025.06.30-03.22.30:592][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2025.06.30-03.22.30:592][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2025.06.30-03.22.30:592][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2025.06.30-03.22.30:592][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.13
+[2025.06.30-03.22.30:592][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.13.dylib
+[2025.06.30-03.22.30:598][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: liboo2texmac64.2.9.5.dylib
+[2025.06.30-03.22.30:605][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2025.06.30-03.22.30:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2025.06.30-03.22.30:702][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2025.06.30-03.22.30:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2025.06.30-03.22.30:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2025.06.30-03.22.30:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2025.06.30-03.22.30:720][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2025.06.30-03.22.30:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2025.06.30-03.22.30:744][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXR'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_OpenXRClient'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2025.06.30-03.22.30:770][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2025.06.30-03.22.30:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOS'
+[2025.06.30-03.22.30:795][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'VisionOSClient'
+[2025.06.30-03.22.30:795][  0]LogTargetPlatformManager: Display: Building Assets For MacEditor
+[2025.06.30-03.22.31:087][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2025.06.30-03.22.31:181][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (1424 MiB)
+[2025.06.30-03.22.31:185][  0]LogZenServiceInstance: Display: Launching executable '/Users/alexandervalverde/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install/zenserver', working dir '/Users/alexandervalverde/Library/Application Support/Epic/UnrealEngine/Common/Zen/Install', data dir '/Users/alexandervalverde/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data', args '--port 8558 --data-dir "/Users/alexandervalverde/Library/Application Support/Epic/UnrealEngine/Common/Zen/Data" --http asio --gc-cache-duration-seconds 1209600 --gc-interval-seconds 21600 --gc-low-diskspace-threshold 2147483648 --quiet --http-forceloopback --owner-pid 3402  --child-id Zen_3402_Startup'
+[2025.06.30-03.22.31:715][  0]LogTemp: Display: /Applications/Xcode.app/Contents/Developer
+
+[2025.06.30-03.22.32:187][  0]LogZenServiceInstance: Display: Unreal Zen Storage Server HTTP service at [::1]:8558 status: OK!.
+[2025.06.30-03.22.32:199][  0]LogDerivedDataCache: Display: ZenLocal: Using ZenServer HTTP service at http://[::1]:8558/ with namespace ue.ddc status: OK!.
+[2025.06.30-03.22.32:208][  0]LogDerivedDataCache: Display: /Users/alexandervalverde/Library/Application Support/Epic/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.01ms. RandomReadSpeed=253.74MBs, RandomWriteSpeed=244.68MBs. Assigned SpeedClass 'Local'
+[2025.06.30-03.22.32:214][  0]LogShaderCompilers: Display: Using 5 local workers for shader compilation
+[2025.06.30-03.22.32:216][  0]LogShaderCompilers: Display: Compiling shader autogen file: ../../../../../../alexandervalverde/Documents/Unreal Projects/OneZero/Intermediate/ShaderAutogen/METAL_SM6/AutogenShaderHeaders.ush
+[2025.06.30-03.22.32:216][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2025.06.30-03.22.33:003][  0]LogEditorDomain: Display: EditorDomain is Disabled
+[2025.06.30-03.22.33:328][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2025.06.30-03.22.33:328][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2025.06.30-03.22.33:354][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="MacEditor"
+[2025.06.30-03.22.33:361][  0]LogStreaming: Display: FlushAsyncLoading(1): 1 QueuedPackages, 0 AsyncPackages
+[2025.06.30-03.22.33:388][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:389][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness because of a recursive sync load
+[2025.06.30-03.22.33:389][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:390][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:390][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec because of a recursive sync load
+[2025.06.30-03.22.33:390][  0]LogStreaming: Display: Flushing package /Engine/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:391][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:393][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_M because of a recursive sync load
+[2025.06.30-03.22.33:393][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/T_Default_Material_Grid_N because of a recursive sync load
+[2025.06.30-03.22.33:393][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade because of a recursive sync load
+[2025.06.30-03.22.33:393][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:404][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:404][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: WaitingForIo) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDiffuse because of a recursive sync load
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components because of a recursive sync load
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultLightFunctionMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultPostProcessMaterial because of a recursive sync load
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultPostProcessMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultDeferredDecalMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultLightFunctionMaterial because of a recursive sync load
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultLightFunctionMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Package /Engine/EngineMaterials/WorldGridMaterial is adding a dynamic import to package /Engine/EngineMaterials/DefaultDeferredDecalMaterial because of a recursive sync load
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/DefaultDeferredDecalMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/WorldGridMaterial (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Package /Engine/EngineMaterials/DefaultTextMaterialOpaque is adding a dynamic import to package /Engine/EngineMaterials/WorldGridMaterial because of a recursive sync load
+[2025.06.30-03.22.33:422][  0]LogStreaming: Display: Flushing package /Engine/EngineMaterials/WorldGridMaterial (state: DeferredPostLoad) recursively from another package /Engine/EngineMaterials/DefaultTextMaterialOpaque (state: CreateLinkerLoadExports) will result in a partially loaded package to avoid a deadlock.
+[2025.06.30-03.22.33:422][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2025.06.30-03.22.33:423][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2025.06.30-03.22.33:423][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2025.06.30-03.22.33:423][  0]LogMeshReduction: Display: HLOD mesh reduction module (r.ProxyLODMeshReductionModule) set to "ProxyLODMeshReduction" which doesn't exist.
+[2025.06.30-03.22.33:438][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2025.06.30-03.22.33:438][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2025.06.30-03.22.33:438][  0]LogMeshReduction: Display: No automatic mesh merging module available
+[2025.06.30-03.22.33:438][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2025.06.30-03.22.33:767][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2025.06.30-03.22.33:767][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2025.06.30-03.22.34:006][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2025.06.30-03.22.34:011][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 4.956 ms
+[2025.06.30-03.22.34:967][  0]LogMetaSound: Display: MetaSound Page Target Initialized to 'Default'
+[2025.06.30-03.22.34:967][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2025.06.30-03.22.36:633][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.30-03.22.36:633][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2025.06.30-03.22.37:909][  0]LogAssetRegistry: Display: Asset registry cache read as 69.6 MiB from ../../../../../../alexandervalverde/Documents/Unreal Projects/OneZero/Intermediate/CachedAssetRegistry_0.bin
+[2025.06.30-03.22.37:909][  0]LogAssetRegistry: Display: AssetDataGatherer spent 0.058s loading caches ../../../../../../alexandervalverde/Documents/Unreal Projects/OneZero/Intermediate/CachedAssetRegistry_*.bin.
+[2025.06.30-03.22.37:987][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2025.06.30-03.22.38:197][  0]LogPython: Display: No pip-enabled plugins with python dependencies found, skipping
+[2025.06.30-03.22.38:908][  0]LogPython: Display: Running start-up script /Users/Shared/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... started...
+[2025.06.30-03.22.38:949][  0]LogPython: Display: Running start-up script /Users/Shared/Epic Games/UE_5.6/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py... took 40.579 ms
+[2025.06.30-03.22.38:949][  0]LogPythonScriptCommandlet: Display: Running Python script: /Users/alexandervalverde/Documents/Personal Projects/Unreal/BuildScene.py
+[2025.06.30-03.22.38:984][  0]LogPython: Warning: Level /Game/Maps/BlockOut exists; overwriting.
+[2025.06.30-03.22.39:164][  0]LogSourceControl: Display: Uncontrolled Changelist persistency file loaded ../../../../../../alexandervalverde/Documents/Unreal Projects/OneZero/Saved/SourceControl/UncontrolledChangelists.json
+[2025.06.30-03.22.39:165][  0]LogPython: Warning: Creating new level
+[2025.06.30-03.22.39:208][  0]LogPython: Warning: Attaching children to parents
+[2025.06.30-03.22.39:209][  0]LogPython: Warning: Saving level
+[2025.06.30-03.22.39:213][  0]LogPythonScriptCommandlet: Display: Python script executed successfully
+[2025.06.30-03.22.39:213][  0]LogInit: Display: 
+[2025.06.30-03.22.39:213][  0]LogInit: Display: Warning/Error Summary (Unique only)
+[2025.06.30-03.22.39:213][  0]LogInit: Display: -----------------------------------
+[2025.06.30-03.22.39:213][  0]LogInit: Display: LogPython: Warning: Level /Game/Maps/BlockOut exists; overwriting.
+[2025.06.30-03.22.39:213][  0]LogInit: Display: LogPython: Warning: Creating new level
+[2025.06.30-03.22.39:213][  0]LogInit: Display: LogPython: Warning: Attaching children to parents
+[2025.06.30-03.22.39:213][  0]LogInit: Display: LogPython: Warning: Saving level
+[2025.06.30-03.22.39:213][  0]LogInit: Display: 
+[2025.06.30-03.22.39:213][  0]LogInit: Display: Success - 0 error(s), 4 warning(s)
+[2025.06.30-03.22.39:213][  0]LogInit: Display: 
+Execution of commandlet took:  0.31 seconds
+[2025.06.30-03.22.39:602][  0]LogShaderCompilers: Display: Shaders left to compile 0
+Opening shared memory
+Shared memory doesn't exist, checking legacy lock file
+Checking for a '/tmp/UnrealTraceServer.pid' lock file
+Forking process
+Opening shared memory
+Starting the store
+Reading settings from '/Users/alexandervalverde/UnrealEngine/UnrealTrace/Settings.ini'
+
+Unable to open settings file /Users/alexandervalverde/UnrealEngine/UnrealTrace/Settings.ini.
+
+Store settings (/Users/alexandervalverde/UnrealEngine/UnrealTrace/Settings.ini):
+ - Store port: 1989
+ - Recorder port: 1981
+ - Thread count: 0
+ - Sponsored mode: 1
+ - Directory: '/Users/alexandervalverde/UnrealEngine/UnrealTrace/Store/001'
+Watcher enabled on /Users/alexandervalverde/UnrealEngine/UnrealTrace/Store/001
+Signalling parent 3406
+Terminating server, no sponsors or connections active.
+Received signal 15
+Daemon is exiting without errors.
+Listening cancelled, closing port...
+Listening cancelled, closing port...
