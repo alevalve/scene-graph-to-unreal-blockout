@@ -67,8 +67,9 @@ Use run_demo.sh to install dependencies, create the JSON and build the BlockOut 
 Before run the sh file you should:
 
 1. UE_BIN: path to your UnrealEditor binary
-2. UPROJECT: full path to your .uproject
-3. SCRIPTS_DIR: directory containing parser.py & BuildScene.py
+2. Include your GPT Key in parser.py
+3. UPROJECT: full path to your .uproject
+4. SCRIPTS_DIR: directory containing parser.py & BuildScene.py
 
 
 
