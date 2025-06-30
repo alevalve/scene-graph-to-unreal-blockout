@@ -158,14 +158,12 @@ def build_scene(scene: dict):
             actors[obj.get('id','')] = a
 
     # Attach children to their parents
-    unreal.log_warning("Attaching children to parents")
     for obj in scene.get('objects', []):
         child = actors.get(obj.get('id'))
         parent = actors.get(obj.get('parent')) or room_actors.get(obj.get('parent'))
         attach_child(child, parent)
 
     # Save level and finish
-    unreal.log_warning("Saving level")
     editor_level.save_current_level()
     unreal.log("BlockOut level built and saved.")
 
