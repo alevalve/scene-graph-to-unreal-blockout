@@ -81,56 +81,58 @@ def build_scene(scene: dict):
             comp.set_intensity(3.0)
             comp.set_mobility(unreal.ComponentMobility.STATIONARY)
 
-        # Spawn room geometry using StaticMeshActor for planes
-        # Spawn room geometry with hardcoded proper dimensions
+
     PLANE = '/Engine/BasicShapes/Plane'
 
-    # Room dimensions: 400x500x300 units (4m x 5m x 3m)
-    ROOM_WIDTH = 400   # X-axis
-    ROOM_LENGTH = 500  # Y-axis  
-    ROOM_HEIGHT = 300  # Z-axis
+    ROOM_HEIGHT = 300  # Z dimension for all rooms
 
-    # Floor - centered at origin
-    spawn_static_mesh(PLANE, 
-        unreal.Vector(0, 0, 0),           # Position
-        unreal.Rotator(0, 0, 0),          # Rotation  
-        unreal.Vector(4.0, 5.0, 1.0),     # Scale (400x500x100)
-        editor_actor)
+    for room in data['rooms']:
+        w = room['width']
+        l = room['length']
+        h = ROOM_HEIGHT
 
-    # Ceiling - 300 units above floor
-    spawn_static_mesh(PLANE, 
-        unreal.Vector(0, 0, 300),         # Position
-        unreal.Rotator(180, 0, 0),        # Rotation (flipped)
-        unreal.Vector(4.0, 5.0, 1.0),     # Scale (400x500x100)
-        editor_actor)
+        half_w = w  / 2.0
+        half_l = l  / 2.0
 
-    # North Wall (positive Y)
-    spawn_static_mesh(PLANE,
-        unreal.Vector(0, 250, 150),       # Position (edge of floor)
-        unreal.Rotator(90, 0, 0),         # Rotation (vertical)
-        unreal.Vector(4.0, 3.0, 1.0),     # Scale (400x300x100)
-        editor_actor)
+        # Unreal’s Plane mesh is 100×100 units by default, so scale factors:
+        floor_scale = unreal.Vector(w/100.0,   l/100.0,   1.0)
+        ns_wall_scale = unreal.Vector(w/100.0,   h/100.0,   1.0)  # North/South walls
+        ew_wall_scale = unreal.Vector(l/100.0,   h/100.0,   1.0)  # East/West walls
 
-    # South Wall (negative Y) 
-    spawn_static_mesh(PLANE,
-        unreal.Vector(0, -250, 150),      # Position (edge of floor)
-        unreal.Rotator(-90, 0, 0),        # Rotation (vertical)
-        unreal.Vector(4.0, 3.0, 1.0),     # Scale (400x300x100)
-        editor_actor)
+        # Floor – centered at origin
+        spawn_static_mesh(PLANE,
+            unreal.Vector(0, 0, 0),               
+            unreal.Rotator(0, 0, 0),              
+            floor_scale,
+            editor_actor)
 
-    # East Wall (positive X)
-    spawn_static_mesh(PLANE,
-        unreal.Vector(200, 0, 150),       # Position (edge of floor)
-        unreal.Rotator(0, 0, 90),         # Rotation (vertical)
-        unreal.Vector(5.0, 3.0, 1.0),     # Scale (500x300x100)
-        editor_actor)
+        # North wall (+Y)
+        spawn_static_mesh(PLANE,
+            unreal.Vector(0,  half_l,  h/2.0),    # pos
+            unreal.Rotator(90, 0, 0),             # rot: plane vertical facing +Y
+            ns_wall_scale,
+            editor_actor)
 
-    # West Wall (negative X)
-    spawn_static_mesh(PLANE,
-        unreal.Vector(-200, 0, 150),      # Position (edge of floor)
-        unreal.Rotator(0, 0, -90),        # Rotation (vertical)  
-        unreal.Vector(5.0, 3.0, 1.0),     # Scale (500x300x100)
-        editor_actor)
+        # South wall (–Y)
+        spawn_static_mesh(PLANE,
+            unreal.Vector(0, -half_l,  h/2.0),
+            unreal.Rotator(90, 0, 0),             # same rotation works both sides
+            ns_wall_scale,
+            editor_actor)
+
+        # East wall (+X)
+        spawn_static_mesh(PLANE,
+            unreal.Vector( half_w, 0,  h/2.0),
+            unreal.Rotator(0, 0, 90),             # plane vertical facing +X
+            ew_wall_scale,
+            editor_actor)
+
+        # West wall (–X)
+        spawn_static_mesh(PLANE,
+            unreal.Vector(-half_w, 0,  h/2.0),
+            unreal.Rotator(0, 0, 90),
+            ew_wall_scale,
+            editor_actor)
 
     # Spawn placeholder actors for rooms
     room_actors = {}
